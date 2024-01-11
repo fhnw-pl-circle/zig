@@ -7,14 +7,14 @@
 
 
 ## Running the Test Cases:
-- Execute all tests: `zig test <filename>.zig`
+- Execute all tests in a file: `zig test <filename>.zig`
 
 
 ## Utilizing the Zig Build System
 Build System is implemented in Zig.
 
 - Create a new project: `zig init`
-- Execute a build file: `zig build <filename>`
+- Execute a build step: `zig build run`
 - Get a build summary: `zig build --summary all`
 
 ## Generate the Documentation

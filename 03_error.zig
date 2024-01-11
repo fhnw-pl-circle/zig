@@ -1,4 +1,3 @@
-
 // Zig has no exceptions, instead we can use errors.
 // Errors are created in "error sets", which are just a collection of named errors.
 
