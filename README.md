@@ -3,7 +3,7 @@
 ## Features
 - Robust, efficient, and reusable
 - Simple
-- Compile-time (comptime) features
+- Compile-time features
 
 ## What is Zig?
 - Aims to be a modern replacement for C
