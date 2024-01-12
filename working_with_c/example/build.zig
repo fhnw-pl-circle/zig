@@ -14,7 +14,7 @@ pub fn build(b: *std.Build) void {
 
     exe.addCSourceFile(.{
         .file = .{
-            .path = "src/foo.c",
+            .path = "src/math.c",
         },
          .flags = CFlags,
     });
