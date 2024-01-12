@@ -7,6 +7,9 @@ const expect      = std.testing.expect;
 const expectEqual = std.testing.expectEqual;
 
 
+pub fn main() void {
+    print("run the tests!\n", .{});
+}
 
 // Currently used OS
 
@@ -69,7 +72,6 @@ const TestObject = struct {
 };
 
 test "inline for" {
-    //const obj = TestObject { .size=123, .x=1.23, .y=42.0};
     const fields = @typeInfo(TestObject).Struct.fields;
     comptime var len = 0;
     inline for (fields) |field| {

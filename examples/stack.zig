@@ -77,8 +77,7 @@ pub fn main() !void {
     const allocator = arena.allocator();
 
 
-    var stack = Stack(i32);
-    stack.init(allocator);
+    var stack = Stack(i32).init(allocator);
     try stack.push(42);
     try stack.push(43);
     try stack.push(44);

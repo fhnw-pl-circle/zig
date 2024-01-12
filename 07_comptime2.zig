@@ -67,3 +67,10 @@ test "is this a duck?" {
     try expect(is_a_duck(realDuck));
     try expect(! is_a_duck(dog));
 }
+
+
+
+
+pub fn main() void {
+    print("run the tests!\n", .{});
+}

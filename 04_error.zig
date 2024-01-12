@@ -10,17 +10,14 @@ const NumberError = error{
     TooBig,
 };
 
-pub fn main() void {
+pub fn main() !void {
 
     var num_or_error: NumberError!u8 = undefined;
     num_or_error = 12;
     num_or_error = NumberError.TooSmall;
 
 
-    const result: u32 = addFive(37) catch |err| {
-        _ = err;
-        return 0;
-    };
+    const result: u32 = addFive(37) catch 0;
     print("result={}\n", .{result});
 
 
