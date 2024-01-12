@@ -9,9 +9,7 @@
 // - TestingAllocator
 // - ...
 // - write your own
-//
-// (Talk about allocators: https://www.youtube.com/watch?v=vHWiDx_l4V0)
-//
+
 
 const std = @import("std");
 
