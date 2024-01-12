@@ -11,5 +11,5 @@ pub fn main() !void {
     const b = 2;
 
     const result = math.add(a, b);
-    std.log.info("{} + {} = {}" , .{a, b, result});
+    std.debug.print("{} + {} = {}\n" , .{a, b, result});
 }
